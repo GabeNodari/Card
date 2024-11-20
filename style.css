@@ -66,3 +66,55 @@ p {
 .copyright p {
   margin: 0 0.5rem;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%; 
+    top: 20%;   
+    padding: 1rem;
+    transform: translate(-50%, -20%);
+  }
+
+  .title {
+    font-size: 24px; 
+    text-align: center;
+  }
+
+  .list {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+  .social {
+    margin-left: 0; 
+    justify-content: center;
+  }
+
+  img {
+    width: 120px; 
+    height: auto; 
+  }
+
+  .copyright {
+    justify-content: center; 
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .list {
+    font-size: 14px;
+  }
+
+  img {
+    width: 100px;
+  }
+}
