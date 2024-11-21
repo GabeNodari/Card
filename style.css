@@ -1,7 +1,7 @@
 :root {
-  -body-white: #D9D9D9;
-  -card-white: #E9E9E9;
-  -card-text: #343434;
+  --body-white: #D9D9D9;
+  --card-white: #E9E9E9;
+  --card-text: #343434;
 }
 
 body {
