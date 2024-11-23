@@ -5,13 +5,13 @@
 }
 
 body {
-  background-color: #D9D9D9;
+  background-color: var(--body-white);
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  background-color:#E9E9E9;
+  background-color: var(--card-white);
   position: absolute;
   top: 25%;
   left: 50%;
@@ -24,13 +24,13 @@ body {
 
 .title {
   display: flex;
-  color: #343434;
+  color: var(--card-text);
   font-size: 32px;
   font-weight: 400;
 }
 
 .list {
-  color: #343434;
+  color: var(--card-text);
   margin-left: 20px;
   font-size: 17px;
 }
