@@ -8,6 +8,24 @@ body {
   background-color: var(--body-white);
 }
 
+p {
+  margin: 1rem ;
+}
+
+/* GIT AND LKDIN LOGOS */
+img {
+  width: 150px;
+  height: 40px; 
+  object-fit: cover; 
+  border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.02); 
+  transition: 0.01s ease;
+}
+
+/* CLASSES */
 .container {
   display: flex;
   flex-direction: column;
@@ -42,22 +60,7 @@ body {
   margin-left: 25%;
 }
 
-img {
-  width: 150px;
-  height: 40px; 
-  object-fit: cover; 
-  border-radius: 10px;
-}
-
-img:hover {
-  transform: scale(1.02); 
-  transition: 0.01s ease;
-}
-
-p {
-  margin: 1rem ;
-}
-
+/* COPYRIGHT */
 .copyright {
   display: flex;
   justify-content: right;
@@ -67,6 +70,7 @@ p {
   margin: 0 0.5rem;
 }
 
+/* RESPONSIVE 768px*/
 @media (max-width: 768px) {
   .container {
     width: 90%; 
@@ -101,6 +105,7 @@ p {
   }
 }
 
+/* RESPONSIVE 480px*/
 @media (max-width: 480px) {
   .container {
     padding: 0.5rem;
