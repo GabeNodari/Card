@@ -94,15 +94,16 @@ img:hover {
     justify-content: center;
   }
 
-  img {
-    width: 120px; 
-    height: 32px; 
-  }
-
   .copyright {
     justify-content: center; 
     margin-top: 1rem;
   }
+  
+   img {
+    width: 120px; 
+    height: 32px; 
+  }
+
 }
 
 /* RESPONSIVE 480px*/
